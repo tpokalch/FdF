@@ -6,7 +6,7 @@
 /*   By: tpokalch <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/20 21:19:59 by tpokalch          #+#    #+#             */
-/*   Updated: 2020/02/08 17:30:57 by tpokalch         ###   ########.fr       */
+/*   Updated: 2019/02/20 22:08:47 by tpokalch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,7 @@ int				next_num(char *s)
 		i++;
 	while (*(s + i) != ' ' && *(s + i) != '\0')
 	{
-		if ((*(s + i) < '0' || *(s + i) > '9') && *(s + i) != ' '
-				&& *(s + i) != '-' && *(s + i) != '+')
+		if ((*(s + i) < '0' || *(s + i) > '9') && *(s + i) != ' ' && *(s + i) != '-')
 			return (-1);
 		i++;
 	}
@@ -81,9 +80,9 @@ int				parse_line(t_vector **a, char *s, int j)
 	*(a + j) = (t_vector *)malloc(sizeof(t_vector) * (ft_strlen(s) + 1));
 	while (*s != '\0' && i != -1)
 	{
-		a[j][i].x = i * 20;
-		a[j][i].y = j * 20;
-		a[j][i].z = ft_atoi(s) * 20;
+		(*(a + j) + (i))->x = i * 20;
+		(*(a + j) + i)->y = j * 20;
+		((*(a + j) + i)->z = ft_atoi(s) * 20);
 		if (next_num(s) == -1)
 		{
 			return (o_putstr("File must contain only spaces and numbers\n",
