@@ -8,3 +8,7 @@ This project is about creating a simplified 3D graphic representation of a relie
 <img align="center" src="https://github.com/tpokalch/FdF/blob/master/screens/Screen%20Shot%202020-02-08%20at%205.37.25%20PM.png" width="100%"/>
 
 <img align="center" src="https://github.com/tpokalch/FdF/blob/master/screens/Screen%20Shot%202020-02-08%20at%205.38.40%20PM.png" width="100%"/>
+
+Click on video below:
+
+[![fdfmars](https://imgur.com/a/2SaCOEI)](https://youtu.be/wAsQltQZezs)
