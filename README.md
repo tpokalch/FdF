@@ -11,4 +11,4 @@ This project is about creating a simplified 3D graphic representation of a relie
 
 Click on video below:
 
-[![fdfmars](https://i.imgur.com/q7SEQnL.jpg](https://youtu.be/wAsQltQZezs)
+[![fdfmars](https://i.imgur.com/q7SEQnL.jpg)](https://youtu.be/wAsQltQZezs)
